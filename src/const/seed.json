@@ -1,0 +1,2472 @@
+[
+  {
+    "crime": [
+      {
+        "id": "482a7a4d-71db-420e-a89c-2bda37f5eb3a",
+        "name": "Burglary",
+        "num_players": 87568,
+        "num_killers": 24002,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-30T03:31:57.080Z",
+        "updated_at": "2023-08-30T01:58:43.608Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "43540990-8acd-45bc-b21e-4d354feba093",
+        "name": "Robbery",
+        "num_players": 22077,
+        "num_killers": 77745,
+        "victim_name": "Emily Johnson",
+        "created_at": "2023-08-30T00:04:39.784Z",
+        "updated_at": "2023-08-30T02:41:29.613Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "0e7e8ad6-e2e2-4a1a-a720-5672720de8b5",
+        "name": "Fraud",
+        "num_players": 93844,
+        "num_killers": 47060,
+        "victim_name": "Michael Brown",
+        "created_at": "2023-08-30T01:51:37.488Z",
+        "updated_at": "2023-08-30T13:29:38.768Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "cbedc847-483e-4578-bfdd-09c488060bb8",
+        "name": "Assault",
+        "num_players": 34278,
+        "num_killers": 19919,
+        "victim_name": "Sarah Davis",
+        "created_at": "2023-08-30T02:26:47.642Z",
+        "updated_at": "2023-08-29T23:11:27.695Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "355c7410-f67d-422b-86f9-ff7396f14872",
+        "name": "Homicide",
+        "num_players": 22201,
+        "num_killers": 781,
+        "victim_name": "David Wilson",
+        "created_at": "2023-08-29T21:11:43.290Z",
+        "updated_at": "2023-08-29T19:23:32.894Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "e4199ff7-c4a2-4456-adb1-50eb214ecb53",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T12:09:16.515Z",
+        "updated_at": "2023-08-30T00:06:14.856Z",
+        "crime_id": "0e7e8ad6-e2e2-4a1a-a720-5672720de8b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05dab530-2e68-4ec2-8591-381cf4a1635c",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-29T20:25:05.987Z",
+        "updated_at": "2023-08-30T02:54:27.345Z",
+        "crime_id": "43540990-8acd-45bc-b21e-4d354feba093",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "effa05dd-ac36-42ef-8e03-c67ec5dbc6bd",
+        "name": "Neymar Jr.",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-29T18:51:35.143Z",
+        "updated_at": "2023-08-29T23:25:09.494Z",
+        "crime_id": "0e7e8ad6-e2e2-4a1a-a720-5672720de8b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dba66d0c-1593-4a22-9ae8-04d0683aacd9",
+        "name": "Kylian Mbappe",
+        "personality_trait": "Ambitious",
+        "created_at": "2023-08-30T12:26:36.581Z",
+        "updated_at": "2023-08-29T23:43:53.264Z",
+        "crime_id": "cbedc847-483e-4578-bfdd-09c488060bb8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e0e8e9e-2f96-4040-aa0d-44104379ec67",
+        "name": "Mohamed Salah",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-30T03:21:45.332Z",
+        "updated_at": "2023-08-29T14:20:02.485Z",
+        "crime_id": "482a7a4d-71db-420e-a89c-2bda37f5eb3a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "a9e03dba-d949-4db7-95ce-aaa86e5125bd",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 9916,
+        "num_characters": 17827,
+        "witness_text": "I saw it with my own eyes!",
+        "self_text": "I have studied this subject extensively.",
+        "created_at": "2023-08-30T10:24:21.244Z",
+        "updated_at": "2023-08-29T22:43:13.583Z",
+        "crime_id": "355c7410-f67d-422b-86f9-ff7396f14872"
+      },
+      {
+        "id": "23346f40-5080-4dc6-b868-1ba09ad56bba",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 38,
+        "num_characters": 81047,
+        "witness_text": "It was a shocking revelation!",
+        "self_text": "I am well-versed in this field.",
+        "created_at": "2023-08-29T20:47:22.826Z",
+        "updated_at": "2023-08-30T07:21:35.166Z",
+        "crime_id": "355c7410-f67d-422b-86f9-ff7396f14872"
+      },
+      {
+        "id": "30ff63c8-f9c0-4b81-9a79-580d927cffb5",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 69924,
+        "num_characters": 85071,
+        "witness_text": "The evidence was undeniable.",
+        "self_text": "I have a deep understanding of this topic.",
+        "created_at": "2023-08-29T20:42:08.070Z",
+        "updated_at": "2023-08-30T05:23:28.116Z",
+        "crime_id": "0e7e8ad6-e2e2-4a1a-a720-5672720de8b5"
+      },
+      {
+        "id": "ce0e1db4-e64b-4e14-8b55-05cc8fef73f9",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 18032,
+        "num_characters": 51358,
+        "witness_text": "I can testify to its accuracy.",
+        "self_text": "I can provide valuable insights.",
+        "created_at": "2023-08-29T20:48:05.777Z",
+        "updated_at": "2023-08-29T13:55:14.958Z",
+        "crime_id": "0e7e8ad6-e2e2-4a1a-a720-5672720de8b5"
+      },
+      {
+        "id": "49803181-cac8-4b6a-abea-ea634a7f94df",
+        "name": "Psychology",
+        "type": "Psychological",
+        "num_witnesses": 76822,
+        "num_characters": 74266,
+        "witness_text": "I witnessed the whole event.",
+        "self_text": "I have conducted thorough research.",
+        "created_at": "2023-08-30T00:12:47.125Z",
+        "updated_at": "2023-08-29T15:37:17.605Z",
+        "crime_id": "43540990-8acd-45bc-b21e-4d354feba093"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "5f8998d7-4ceb-4067-893a-a13bd49a5cc3",
+        "created_at": "2023-08-29T15:02:34.936Z",
+        "updated_at": "2023-08-30T07:58:30.621Z",
+        "knowledge_id": "23346f40-5080-4dc6-b868-1ba09ad56bba",
+        "player_id": "e4199ff7-c4a2-4456-adb1-50eb214ecb53"
+      },
+      {
+        "id": "4e7c5505-9b5e-4769-a3e0-4c2dc001a0b3",
+        "created_at": "2023-08-29T20:11:22.114Z",
+        "updated_at": "2023-08-30T10:52:20.011Z",
+        "knowledge_id": "23346f40-5080-4dc6-b868-1ba09ad56bba",
+        "player_id": "7e0e8e9e-2f96-4040-aa0d-44104379ec67"
+      },
+      {
+        "id": "e3c52383-9766-416c-94d6-adcf061c2fb3",
+        "created_at": "2023-08-30T13:29:11.268Z",
+        "updated_at": "2023-08-30T00:59:04.093Z",
+        "knowledge_id": "30ff63c8-f9c0-4b81-9a79-580d927cffb5",
+        "player_id": "effa05dd-ac36-42ef-8e03-c67ec5dbc6bd"
+      },
+      {
+        "id": "477bdd63-c7af-4918-8709-f6540de0d81a",
+        "created_at": "2023-08-29T15:25:44.036Z",
+        "updated_at": "2023-08-30T10:22:32.174Z",
+        "knowledge_id": "23346f40-5080-4dc6-b868-1ba09ad56bba",
+        "player_id": "05dab530-2e68-4ec2-8591-381cf4a1635c"
+      },
+      {
+        "id": "bc21ccfb-0bdf-4bce-88cc-3f57171cd4e7",
+        "created_at": "2023-08-29T18:15:43.454Z",
+        "updated_at": "2023-08-30T04:56:32.572Z",
+        "knowledge_id": "a9e03dba-d949-4db7-95ce-aaa86e5125bd",
+        "player_id": "dba66d0c-1593-4a22-9ae8-04d0683aacd9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "35edee85-1314-477e-a401-46f77f4315a5",
+        "email": "Josianne_Rosenbaum@hotmail.com",
+        "firstName": "Zander",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72019610",
+        "tenantId": null
+      },
+      {
+        "reference": "777e9d38-d28b-4947-94d7-9201cb5df774",
+        "email": "Else.Yost@yahoo.com",
+        "firstName": "Maiya",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41574015",
+        "tenantId": null
+      },
+      {
+        "reference": "6d1ebefd-1de2-4176-aa90-4796ac1633e0",
+        "email": "Finn44@hotmail.com",
+        "firstName": "Joshua",
+        "lastName": "Rath-Kilback",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/592841",
+        "tenantId": null
+      },
+      {
+        "reference": "6ddf8ff8-9f47-4963-b319-aef5b0f24f8f",
+        "email": "German.Little2@hotmail.com",
+        "firstName": "Joany",
+        "lastName": "Haag",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78258806",
+        "tenantId": null
+      },
+      {
+        "reference": "3443074a-6b1b-4fe3-a949-1392751cf08c",
+        "email": "Glen.Casper@yahoo.com",
+        "firstName": "Bailee",
+        "lastName": "Zemlak",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19735839",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "b675ba1e-dbab-4c7c-8b26-00ed576fd8a4",
+        "name": "Burglary",
+        "num_players": 73886,
+        "num_killers": 63112,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-30T04:58:51.784Z",
+        "updated_at": "2023-08-30T04:14:56.922Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "431238cd-0df4-4dfe-ad4a-721d6b840511",
+        "name": "Assault",
+        "num_players": 46718,
+        "num_killers": 94826,
+        "victim_name": "Emily Johnson",
+        "created_at": "2023-08-30T03:33:16.612Z",
+        "updated_at": "2023-08-30T00:41:11.813Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "b6e97ecb-4023-4ce3-9cf0-dbc5ea03f2aa",
+        "name": "Fraud",
+        "num_players": 25053,
+        "num_killers": 90288,
+        "victim_name": "Michael Davis",
+        "created_at": "2023-08-29T16:25:16.248Z",
+        "updated_at": "2023-08-29T14:15:38.100Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1026b8e4-6706-44a1-8f93-8d44af139147",
+        "name": "Robbery",
+        "num_players": 90715,
+        "num_killers": 93693,
+        "victim_name": "Sarah Thompson",
+        "created_at": "2023-08-29T22:58:18.517Z",
+        "updated_at": "2023-08-30T04:30:16.768Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "a9d5d5fe-fbe5-45bf-b3fd-36929d2cc9a8",
+        "name": "Homicide",
+        "num_players": 7917,
+        "num_killers": 80530,
+        "victim_name": "David Wilson",
+        "created_at": "2023-08-30T09:07:45.895Z",
+        "updated_at": "2023-08-29T14:57:17.250Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "4d972b1f-6649-4d4d-9dbe-23343a6d41fc",
+        "name": "Tom",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-30T13:09:12.913Z",
+        "updated_at": "2023-08-30T02:51:30.843Z",
+        "crime_id": "b675ba1e-dbab-4c7c-8b26-00ed576fd8a4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62610576-bcd4-408d-b000-40c77c815097",
+        "name": "Emily",
+        "personality_trait": "Creative",
+        "created_at": "2023-08-30T07:24:12.748Z",
+        "updated_at": "2023-08-29T20:23:46.121Z",
+        "crime_id": "431238cd-0df4-4dfe-ad4a-721d6b840511",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73d448a1-f463-4ef3-8efa-f8515812f662",
+        "name": "Alex",
+        "personality_trait": "Ambitious",
+        "created_at": "2023-08-29T16:40:28.938Z",
+        "updated_at": "2023-08-30T12:25:18.086Z",
+        "crime_id": "b6e97ecb-4023-4ce3-9cf0-dbc5ea03f2aa",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9601a2c0-2d31-4a56-a1e1-ea8657209ceb",
+        "name": "Olivia",
+        "personality_trait": "Friendly",
+        "created_at": "2023-08-30T01:53:57.643Z",
+        "updated_at": "2023-08-29T16:05:07.944Z",
+        "crime_id": "1026b8e4-6706-44a1-8f93-8d44af139147",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "084983fc-c80f-47b1-9b59-e7d859376f93",
+        "name": "Daniel",
+        "personality_trait": "Analytical",
+        "created_at": "2023-08-29T18:15:43.223Z",
+        "updated_at": "2023-08-30T07:18:03.966Z",
+        "crime_id": "431238cd-0df4-4dfe-ad4a-721d6b840511",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "f4e35d9d-1aaf-41f2-8800-6b8d63c7f590",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 49981,
+        "num_characters": 83676,
+        "witness_text": "I saw it happen!",
+        "self_text": "I have studied this subject for years",
+        "created_at": "2023-08-29T22:20:08.722Z",
+        "updated_at": "2023-08-30T04:55:46.192Z",
+        "crime_id": "a9d5d5fe-fbe5-45bf-b3fd-36929d2cc9a8"
+      },
+      {
+        "id": "d6a5a74c-d755-446e-842d-ac1a1c162d45",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 67680,
+        "num_characters": 65683,
+        "witness_text": "I heard someone talking about it",
+        "self_text": "I have written a book on this topic",
+        "created_at": "2023-08-30T01:03:35.491Z",
+        "updated_at": "2023-08-30T06:29:25.962Z",
+        "crime_id": "b6e97ecb-4023-4ce3-9cf0-dbc5ea03f2aa"
+      },
+      {
+        "id": "82607ff8-ab7e-430e-b4d7-bb80977c49a7",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 2686,
+        "num_characters": 6914,
+        "witness_text": "I found evidence at the scene",
+        "self_text": "I have conducted extensive research on this",
+        "created_at": "2023-08-29T20:30:58.268Z",
+        "updated_at": "2023-08-29T14:40:38.449Z",
+        "crime_id": "431238cd-0df4-4dfe-ad4a-721d6b840511"
+      },
+      {
+        "id": "0f2fb845-0d6e-49b1-9f2c-54e93a4c143b",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 46740,
+        "num_characters": 95581,
+        "witness_text": "I was there when it happened",
+        "self_text": "I have practical experience in this field",
+        "created_at": "2023-08-30T00:40:01.100Z",
+        "updated_at": "2023-08-30T03:52:31.154Z",
+        "crime_id": "1026b8e4-6706-44a1-8f93-8d44af139147"
+      },
+      {
+        "id": "1387ef8f-4fb8-46d4-8efc-05b72a5c59bd",
+        "name": "Literature",
+        "type": "Literary",
+        "num_witnesses": 29088,
+        "num_characters": 18351,
+        "witness_text": "I can identify the suspect",
+        "self_text": "I have won awards for my knowledge in this area",
+        "created_at": "2023-08-30T09:41:44.154Z",
+        "updated_at": "2023-08-30T06:01:20.408Z",
+        "crime_id": "a9d5d5fe-fbe5-45bf-b3fd-36929d2cc9a8"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "dc626c40-fc0b-487a-a8c3-48188f02739f",
+        "created_at": "2023-08-30T12:23:56.331Z",
+        "updated_at": "2023-08-30T02:48:06.585Z",
+        "knowledge_id": "d6a5a74c-d755-446e-842d-ac1a1c162d45",
+        "player_id": "4d972b1f-6649-4d4d-9dbe-23343a6d41fc"
+      },
+      {
+        "id": "4c202132-d254-4b9f-aced-327ae8524ba0",
+        "created_at": "2023-08-29T14:09:00.880Z",
+        "updated_at": "2023-08-30T02:29:32.399Z",
+        "knowledge_id": "f4e35d9d-1aaf-41f2-8800-6b8d63c7f590",
+        "player_id": "4d972b1f-6649-4d4d-9dbe-23343a6d41fc"
+      },
+      {
+        "id": "49c55020-1d28-4217-b2ce-6b6af6e85e90",
+        "created_at": "2023-08-29T15:44:17.866Z",
+        "updated_at": "2023-08-29T20:44:29.377Z",
+        "knowledge_id": "d6a5a74c-d755-446e-842d-ac1a1c162d45",
+        "player_id": "9601a2c0-2d31-4a56-a1e1-ea8657209ceb"
+      },
+      {
+        "id": "225bac81-2297-4705-a602-b22a16d36e82",
+        "created_at": "2023-08-30T07:14:20.977Z",
+        "updated_at": "2023-08-30T08:28:00.373Z",
+        "knowledge_id": "0f2fb845-0d6e-49b1-9f2c-54e93a4c143b",
+        "player_id": "9601a2c0-2d31-4a56-a1e1-ea8657209ceb"
+      },
+      {
+        "id": "b2ae464d-8f55-4fc3-9dee-ca116f4bac49",
+        "created_at": "2023-08-30T05:46:45.337Z",
+        "updated_at": "2023-08-30T12:27:21.350Z",
+        "knowledge_id": "82607ff8-ab7e-430e-b4d7-bb80977c49a7",
+        "player_id": "084983fc-c80f-47b1-9b59-e7d859376f93"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1e14cabc-cc6e-46df-96f6-dd690b42a80b",
+        "email": "Kiel_Smitham@gmail.com",
+        "firstName": "Hilario",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/389.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4fe3736b-7fbb-47ef-ae33-6b77555ccf42",
+        "email": "Keven.Maggio84@hotmail.com",
+        "firstName": "Abel",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41125127",
+        "tenantId": null
+      },
+      {
+        "reference": "61a0dfc9-7869-4443-8634-bb3960666913",
+        "email": "Lea_Swift71@hotmail.com",
+        "firstName": "Ted",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/782.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "677ef3d0-a7da-4944-b8b5-40ce24521c2c",
+        "email": "Abelardo.Schoen@yahoo.com",
+        "firstName": "Kameron",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/350.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c3c4998a-199b-4533-8e5b-62dd8d500fc2",
+        "email": "Clovis.Johnston47@yahoo.com",
+        "firstName": "Ellsworth",
+        "lastName": "Schneider",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/498.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "b221b70c-c853-4522-abd9-0b8200cfb0a0",
+        "name": "Robbery",
+        "num_players": 18967,
+        "num_killers": 65245,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-29T23:07:03.448Z",
+        "updated_at": "2023-08-30T07:56:55.775Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "36b11e72-9f65-4747-ade4-a557b2a46ff8",
+        "name": "Burglary",
+        "num_players": 80011,
+        "num_killers": 24225,
+        "victim_name": "Emily Johnson",
+        "created_at": "2023-08-30T06:16:12.254Z",
+        "updated_at": "2023-08-30T12:00:23.185Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "080461c1-3293-4cc4-9e17-d09ea9153a50",
+        "name": "Assault",
+        "num_players": 26836,
+        "num_killers": 68110,
+        "victim_name": "Michael Davis",
+        "created_at": "2023-08-30T02:22:08.552Z",
+        "updated_at": "2023-08-30T02:40:07.702Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f4ec5b29-71fe-4c49-9390-c1ea45fe7138",
+        "name": "Fraud",
+        "num_players": 60757,
+        "num_killers": 77950,
+        "victim_name": "Sophia Anderson",
+        "created_at": "2023-08-30T00:43:30.387Z",
+        "updated_at": "2023-08-29T23:44:37.094Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5a38a2f1-57c4-4fd4-9826-d4c009f9a1c8",
+        "name": "Homicide",
+        "num_players": 54156,
+        "num_killers": 21743,
+        "victim_name": "Daniel Wilson",
+        "created_at": "2023-08-30T06:12:56.425Z",
+        "updated_at": "2023-08-30T06:19:33.118Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "af761e49-337f-4853-b6bc-85831a70c0d1",
+        "name": "Tom",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-29T15:59:58.427Z",
+        "updated_at": "2023-08-29T14:14:06.390Z",
+        "crime_id": "36b11e72-9f65-4747-ade4-a557b2a46ff8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efc35118-71c9-45b4-9427-3412d2a357bf",
+        "name": "Emily",
+        "personality_trait": "Creative",
+        "created_at": "2023-08-30T12:18:13.835Z",
+        "updated_at": "2023-08-30T01:50:08.311Z",
+        "crime_id": "36b11e72-9f65-4747-ade4-a557b2a46ff8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e789eaa5-f0a5-48c4-945d-d914d1aca602",
+        "name": "Alex",
+        "personality_trait": "Adventurous",
+        "created_at": "2023-08-30T08:32:10.546Z",
+        "updated_at": "2023-08-29T22:58:36.896Z",
+        "crime_id": "f4ec5b29-71fe-4c49-9390-c1ea45fe7138",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f497546e-bbe1-4e61-b238-9aa4943fab5b",
+        "name": "Olivia",
+        "personality_trait": "Intelligent",
+        "created_at": "2023-08-29T20:54:34.061Z",
+        "updated_at": "2023-08-30T07:47:06.160Z",
+        "crime_id": "36b11e72-9f65-4747-ade4-a557b2a46ff8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba58b09e-d642-463c-a4a7-1c09d1cf728d",
+        "name": "Benjamin",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T07:10:04.553Z",
+        "updated_at": "2023-08-29T16:25:13.284Z",
+        "crime_id": "f4ec5b29-71fe-4c49-9390-c1ea45fe7138",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "095fefba-9d28-4f36-baaa-e5049b2cc5e1",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 90207,
+        "num_characters": 51189,
+        "witness_text": "I saw it happen with my own eyes.",
+        "self_text": "I have extensive knowledge in this field.",
+        "created_at": "2023-08-29T14:22:33.924Z",
+        "updated_at": "2023-08-30T01:35:21.498Z",
+        "crime_id": "36b11e72-9f65-4747-ade4-a557b2a46ff8"
+      },
+      {
+        "id": "ea51e5a0-17cf-4f71-a082-4d453c9f97e2",
+        "name": "History",
+        "type": "Cultural",
+        "num_witnesses": 57703,
+        "num_characters": 34219,
+        "witness_text": "There were multiple witnesses present at the scene.",
+        "self_text": "I have conducted thorough research on this topic.",
+        "created_at": "2023-08-30T05:40:51.632Z",
+        "updated_at": "2023-08-30T01:30:43.145Z",
+        "crime_id": "5a38a2f1-57c4-4fd4-9826-d4c009f9a1c8"
+      },
+      {
+        "id": "503b56b8-23ba-4acd-af98-4dfa7a7ee3fc",
+        "name": "Biology",
+        "type": "Medical",
+        "num_witnesses": 28488,
+        "num_characters": 10676,
+        "witness_text": "The incident was captured on CCTV cameras.",
+        "self_text": "I have personally experienced the effects of this phenomenon.",
+        "created_at": "2023-08-30T02:56:42.316Z",
+        "updated_at": "2023-08-29T23:46:34.668Z",
+        "crime_id": "b221b70c-c853-4522-abd9-0b8200cfb0a0"
+      },
+      {
+        "id": "f94cbfb1-1d0d-480e-86b0-9c1d45fd2cf0",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 28143,
+        "num_characters": 26231,
+        "witness_text": "The victim provided a detailed account of the event.",
+        "self_text": "I have written several articles on this subject.",
+        "created_at": "2023-08-29T15:36:28.101Z",
+        "updated_at": "2023-08-30T04:05:24.917Z",
+        "crime_id": "b221b70c-c853-4522-abd9-0b8200cfb0a0"
+      },
+      {
+        "id": "2dc5db0d-c650-4c81-b8b1-10866136eba4",
+        "name": "Literature",
+        "type": "Literary",
+        "num_witnesses": 48618,
+        "num_characters": 24531,
+        "witness_text": "The suspect confessed to the crime during interrogation.",
+        "self_text": "I have received specialized training in this area.",
+        "created_at": "2023-08-29T17:03:00.750Z",
+        "updated_at": "2023-08-29T23:27:39.928Z",
+        "crime_id": "080461c1-3293-4cc4-9e17-d09ea9153a50"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "7dc39e97-0f95-4cde-aea4-30a8b85afadf",
+        "created_at": "2023-08-30T00:09:16.670Z",
+        "updated_at": "2023-08-30T10:24:26.616Z",
+        "knowledge_id": "f94cbfb1-1d0d-480e-86b0-9c1d45fd2cf0",
+        "player_id": "f497546e-bbe1-4e61-b238-9aa4943fab5b"
+      },
+      {
+        "id": "1158e8c9-4001-4489-914c-dd3d69efea50",
+        "created_at": "2023-08-30T13:18:53.344Z",
+        "updated_at": "2023-08-30T05:15:06.671Z",
+        "knowledge_id": "ea51e5a0-17cf-4f71-a082-4d453c9f97e2",
+        "player_id": "ba58b09e-d642-463c-a4a7-1c09d1cf728d"
+      },
+      {
+        "id": "5e86bdb6-9027-4ae6-8daa-a8104b7a71cd",
+        "created_at": "2023-08-30T11:02:10.530Z",
+        "updated_at": "2023-08-30T06:30:24.332Z",
+        "knowledge_id": "ea51e5a0-17cf-4f71-a082-4d453c9f97e2",
+        "player_id": "af761e49-337f-4853-b6bc-85831a70c0d1"
+      },
+      {
+        "id": "645362db-8e4d-4c31-833a-fc206d21a363",
+        "created_at": "2023-08-30T12:19:40.113Z",
+        "updated_at": "2023-08-29T22:09:10.395Z",
+        "knowledge_id": "f94cbfb1-1d0d-480e-86b0-9c1d45fd2cf0",
+        "player_id": "e789eaa5-f0a5-48c4-945d-d914d1aca602"
+      },
+      {
+        "id": "97c9ca8c-a970-4810-bb2d-a90e04c1985c",
+        "created_at": "2023-08-29T22:10:04.454Z",
+        "updated_at": "2023-08-29T13:40:35.112Z",
+        "knowledge_id": "503b56b8-23ba-4acd-af98-4dfa7a7ee3fc",
+        "player_id": "ba58b09e-d642-463c-a4a7-1c09d1cf728d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "30882db2-14b8-4e0e-9105-931283201db7",
+        "email": "Warren_Kunze@gmail.com",
+        "firstName": "Velda",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/774.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd590b47-5137-41e2-8070-3e280724ebab",
+        "email": "Edgar15@gmail.com",
+        "firstName": "Kasey",
+        "lastName": "Ullrich-Dicki",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "038e2639-093a-4f53-8464-c02088fe367c",
+        "email": "Darryl77@yahoo.com",
+        "firstName": "Sarah",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66562961",
+        "tenantId": null
+      },
+      {
+        "reference": "0558add2-939f-433d-a7be-817db236c502",
+        "email": "Jamaal95@hotmail.com",
+        "firstName": "Jamar",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49882473",
+        "tenantId": null
+      },
+      {
+        "reference": "95d01482-d6b9-4f28-8eaa-7186cd0fc3e2",
+        "email": "Benny.Kuvalis94@yahoo.com",
+        "firstName": "Johann",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59377064",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "396ac0d7-0a6e-4c76-9aa5-e68872053816",
+        "name": "Burglary",
+        "num_players": 5189,
+        "num_killers": 92309,
+        "victim_name": "John Doe",
+        "created_at": "2023-08-29T21:05:36.014Z",
+        "updated_at": "2023-08-30T06:11:23.145Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "146ed088-cfcd-494b-aaa5-6613af23097d",
+        "name": "Assault",
+        "num_players": 68909,
+        "num_killers": 85979,
+        "victim_name": "Jane Smith",
+        "created_at": "2023-08-30T11:15:50.417Z",
+        "updated_at": "2023-08-30T07:58:32.941Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "1d58a9f3-503f-4aa7-b998-a108dab92050",
+        "name": "Fraud",
+        "num_players": 82393,
+        "num_killers": 5495,
+        "victim_name": "Michael Johnson",
+        "created_at": "2023-08-30T07:01:00.927Z",
+        "updated_at": "2023-08-30T06:46:28.649Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d05a603e-94e9-47af-aad3-7aaab5a1c4db",
+        "name": "Robbery",
+        "num_players": 88531,
+        "num_killers": 90422,
+        "victim_name": "Emily Williams",
+        "created_at": "2023-08-29T18:29:17.067Z",
+        "updated_at": "2023-08-29T23:37:33.284Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f34b3eba-e0e7-4a96-9167-f644d4c6c5f6",
+        "name": "Homicide",
+        "num_players": 5652,
+        "num_killers": 14510,
+        "victim_name": "David Brown",
+        "created_at": "2023-08-29T13:35:52.837Z",
+        "updated_at": "2023-08-29T18:27:50.845Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "7ae1a630-803c-493c-baec-ce0eee8f693c",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T05:53:14.282Z",
+        "updated_at": "2023-08-29T18:33:52.114Z",
+        "crime_id": "396ac0d7-0a6e-4c76-9aa5-e68872053816",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00975664-1716-4138-aa95-95d570e1803b",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Ambitious",
+        "created_at": "2023-08-29T20:56:38.153Z",
+        "updated_at": "2023-08-30T11:28:42.506Z",
+        "crime_id": "1d58a9f3-503f-4aa7-b998-a108dab92050",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ea1c6bcf-8d36-4c05-8572-aecba688afa8",
+        "name": "Neymar Jr.",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-30T07:35:42.108Z",
+        "updated_at": "2023-08-29T19:46:20.269Z",
+        "crime_id": "1d58a9f3-503f-4aa7-b998-a108dab92050",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1224d679-4ba8-484e-b645-da6c95a9049f",
+        "name": "Kylian Mbappe",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-30T00:24:52.333Z",
+        "updated_at": "2023-08-30T08:05:01.495Z",
+        "crime_id": "146ed088-cfcd-494b-aaa5-6613af23097d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94ea3629-dea6-4ec6-9550-fb1def3e0e84",
+        "name": "Robert Lewandowski",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-29T17:41:44.609Z",
+        "updated_at": "2023-08-29T23:32:18.591Z",
+        "crime_id": "1d58a9f3-503f-4aa7-b998-a108dab92050",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "7f1a0b22-0bca-47b5-bf30-991109fe1346",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 27674,
+        "num_characters": 63871,
+        "witness_text": "I saw it happen with my own eyes.",
+        "self_text": "I have extensive knowledge in this field.",
+        "created_at": "2023-08-30T10:28:52.891Z",
+        "updated_at": "2023-08-30T04:28:13.031Z",
+        "crime_id": "1d58a9f3-503f-4aa7-b998-a108dab92050"
+      },
+      {
+        "id": "757ea997-1f58-4034-9ef2-35d7c73e2ffd",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 86071,
+        "num_characters": 42560,
+        "witness_text": "There were multiple witnesses to the event.",
+        "self_text": "I have studied this subject for many years.",
+        "created_at": "2023-08-30T00:08:07.907Z",
+        "updated_at": "2023-08-29T22:49:11.464Z",
+        "crime_id": "146ed088-cfcd-494b-aaa5-6613af23097d"
+      },
+      {
+        "id": "3a6f510c-5374-4b2b-9f4d-8e19c0351063",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 65714,
+        "num_characters": 45310,
+        "witness_text": "The witness testimony is crucial for the case.",
+        "self_text": "I am considered an expert in this area.",
+        "created_at": "2023-08-29T14:13:33.646Z",
+        "updated_at": "2023-08-29T15:32:08.590Z",
+        "crime_id": "396ac0d7-0a6e-4c76-9aa5-e68872053816"
+      },
+      {
+        "id": "497a3dd7-5a44-49ed-aadb-2a13db3d356b",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 28843,
+        "num_characters": 39047,
+        "witness_text": "The witness provided a detailed account of the incident.",
+        "self_text": "I have published several papers on this topic.",
+        "created_at": "2023-08-30T07:55:16.912Z",
+        "updated_at": "2023-08-29T20:52:19.734Z",
+        "crime_id": "f34b3eba-e0e7-4a96-9167-f644d4c6c5f6"
+      },
+      {
+        "id": "519d76ae-d8a8-4d24-bfd9-f80b78a00b03",
+        "name": "Literature",
+        "type": "Literary",
+        "num_witnesses": 30340,
+        "num_characters": 78804,
+        "witness_text": "The witness is credible and reliable.",
+        "self_text": "I have conducted research on this subject.",
+        "created_at": "2023-08-29T13:49:51.022Z",
+        "updated_at": "2023-08-29T21:59:43.743Z",
+        "crime_id": "396ac0d7-0a6e-4c76-9aa5-e68872053816"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "b33f50a9-df42-412d-9e1c-a85613cd54d6",
+        "created_at": "2023-08-29T18:55:31.033Z",
+        "updated_at": "2023-08-29T17:41:27.171Z",
+        "knowledge_id": "497a3dd7-5a44-49ed-aadb-2a13db3d356b",
+        "player_id": "00975664-1716-4138-aa95-95d570e1803b"
+      },
+      {
+        "id": "415e482b-051c-4d6f-b95d-b8e17b4a1426",
+        "created_at": "2023-08-30T02:27:35.172Z",
+        "updated_at": "2023-08-30T07:40:14.626Z",
+        "knowledge_id": "7f1a0b22-0bca-47b5-bf30-991109fe1346",
+        "player_id": "7ae1a630-803c-493c-baec-ce0eee8f693c"
+      },
+      {
+        "id": "2c4ca34c-1b72-4b33-b204-bfe6ad0f7d4c",
+        "created_at": "2023-08-30T09:51:45.011Z",
+        "updated_at": "2023-08-29T18:13:00.741Z",
+        "knowledge_id": "497a3dd7-5a44-49ed-aadb-2a13db3d356b",
+        "player_id": "1224d679-4ba8-484e-b645-da6c95a9049f"
+      },
+      {
+        "id": "f84b65d9-4a41-4445-8df7-8a54ee78b830",
+        "created_at": "2023-08-29T23:34:41.114Z",
+        "updated_at": "2023-08-29T13:50:10.432Z",
+        "knowledge_id": "3a6f510c-5374-4b2b-9f4d-8e19c0351063",
+        "player_id": "94ea3629-dea6-4ec6-9550-fb1def3e0e84"
+      },
+      {
+        "id": "64c7f79a-01b6-407f-9dc0-24ba4fdc9f47",
+        "created_at": "2023-08-29T16:19:26.075Z",
+        "updated_at": "2023-08-30T04:38:48.891Z",
+        "knowledge_id": "497a3dd7-5a44-49ed-aadb-2a13db3d356b",
+        "player_id": "ea1c6bcf-8d36-4c05-8572-aecba688afa8"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "769d0f05-8884-42f5-bf27-1ee83c397512",
+        "email": "Prince_Hartmann44@gmail.com",
+        "firstName": "Finn",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99077077",
+        "tenantId": null
+      },
+      {
+        "reference": "644211b0-4038-4bcb-88b1-2730b80c5c84",
+        "email": "Justine69@yahoo.com",
+        "firstName": "Judd",
+        "lastName": "Feeney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/45.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "89bfef1b-6b2d-433d-9861-a60125ddd813",
+        "email": "Willow.Moore80@yahoo.com",
+        "firstName": "Maribel",
+        "lastName": "Ondricka",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/738.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "23f7aa08-0338-4d8e-893f-8d6e6ff756b7",
+        "email": "Mallory.Tillman@hotmail.com",
+        "firstName": "Valentina",
+        "lastName": "Kiehn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/328.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "89b35193-45e0-41b8-98d8-92c5eafa03f4",
+        "email": "Dennis30@gmail.com",
+        "firstName": "Pete",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/411.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "b5174452-1939-4c8d-a841-14a2869fc2fc",
+        "name": "Robbery",
+        "num_players": 92970,
+        "num_killers": 20745,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-29T21:21:00.272Z",
+        "updated_at": "2023-08-30T11:03:29.581Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "6cd9e57e-26e6-4adc-a29e-788c823adf5f",
+        "name": "Burglary",
+        "num_players": 23325,
+        "num_killers": 53875,
+        "victim_name": "Jane Doe",
+        "created_at": "2023-08-29T17:09:21.575Z",
+        "updated_at": "2023-08-30T08:11:48.563Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "228d85a5-fe13-4353-a660-8ce3f6f54111",
+        "name": "Assault",
+        "num_players": 32474,
+        "num_killers": 34959,
+        "victim_name": "Michael Brown",
+        "created_at": "2023-08-30T03:22:19.810Z",
+        "updated_at": "2023-08-29T21:53:45.001Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2b6d9371-a80b-4fc2-a844-97b733417587",
+        "name": "Fraud",
+        "num_players": 24630,
+        "num_killers": 37938,
+        "victim_name": "Sarah Jones",
+        "created_at": "2023-08-30T08:18:31.950Z",
+        "updated_at": "2023-08-30T07:22:57.597Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d85804ac-f5c4-4784-ab3a-68faecea2b3f",
+        "name": "Homicide",
+        "num_players": 50718,
+        "num_killers": 99796,
+        "victim_name": "David Wilson",
+        "created_at": "2023-08-30T07:34:26.570Z",
+        "updated_at": "2023-08-29T19:18:28.755Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "d1e0888b-2b6c-41ce-b90b-207ccb32f954",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-29T13:43:01.035Z",
+        "updated_at": "2023-08-30T06:54:40.419Z",
+        "crime_id": "b5174452-1939-4c8d-a841-14a2869fc2fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b95b06b-cff6-43f6-a026-c30f6a18d949",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-30T06:58:13.022Z",
+        "updated_at": "2023-08-29T21:33:48.551Z",
+        "crime_id": "b5174452-1939-4c8d-a841-14a2869fc2fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b2dc7e3-8240-4cef-b762-e2cca15a2c85",
+        "name": "Neymar Jr.",
+        "personality_trait": "Creative",
+        "created_at": "2023-08-30T09:50:52.047Z",
+        "updated_at": "2023-08-30T11:48:16.246Z",
+        "crime_id": "d85804ac-f5c4-4784-ab3a-68faecea2b3f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a60fe047-5200-421c-9549-3890b3f9c4be",
+        "name": "Kylian Mbappé",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-30T02:12:10.317Z",
+        "updated_at": "2023-08-30T08:41:28.085Z",
+        "crime_id": "b5174452-1939-4c8d-a841-14a2869fc2fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a73131e-44db-4349-980f-6e3ae1d3d37e",
+        "name": "Mohamed Salah",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-30T10:16:52.564Z",
+        "updated_at": "2023-08-29T15:58:40.226Z",
+        "crime_id": "6cd9e57e-26e6-4adc-a29e-788c823adf5f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "0a8b6546-0dc3-441c-a4dc-17d4b4adbfb7",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 83689,
+        "num_characters": 81503,
+        "witness_text": "I saw it happen with my own eyes",
+        "self_text": "I have personal experience with it",
+        "created_at": "2023-08-29T16:16:17.289Z",
+        "updated_at": "2023-08-29T21:29:29.130Z",
+        "crime_id": "b5174452-1939-4c8d-a841-14a2869fc2fc"
+      },
+      {
+        "id": "8f836702-98ea-495a-983d-b0384792e956",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 36064,
+        "num_characters": 5165,
+        "witness_text": "I heard someone talking about it",
+        "self_text": "I have studied it extensively",
+        "created_at": "2023-08-30T11:18:36.170Z",
+        "updated_at": "2023-08-29T15:35:33.939Z",
+        "crime_id": "b5174452-1939-4c8d-a841-14a2869fc2fc"
+      },
+      {
+        "id": "e6db8b17-5a18-4c16-827a-a73a6a4d6675",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 78406,
+        "num_characters": 65913,
+        "witness_text": "I read about it in a book",
+        "self_text": "I have written a research paper on it",
+        "created_at": "2023-08-30T12:58:54.946Z",
+        "updated_at": "2023-08-29T17:16:10.732Z",
+        "crime_id": "6cd9e57e-26e6-4adc-a29e-788c823adf5f"
+      },
+      {
+        "id": "6771f9e6-d7a0-4f8a-8353-0cf5576aa315",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 40475,
+        "num_characters": 90595,
+        "witness_text": "I watched a documentary about it",
+        "self_text": "I have taught it to others",
+        "created_at": "2023-08-30T04:47:45.113Z",
+        "updated_at": "2023-08-29T22:37:08.098Z",
+        "crime_id": "b5174452-1939-4c8d-a841-14a2869fc2fc"
+      },
+      {
+        "id": "49ec724e-d652-4221-b6d3-dba432eb9607",
+        "name": "Psychology",
+        "type": "Psychological",
+        "num_witnesses": 50992,
+        "num_characters": 46619,
+        "witness_text": "I conducted an experiment on it",
+        "self_text": "I have received formal training in it",
+        "created_at": "2023-08-29T20:39:44.490Z",
+        "updated_at": "2023-08-29T18:26:30.341Z",
+        "crime_id": "228d85a5-fe13-4353-a660-8ce3f6f54111"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "896e45d1-3ab3-4b76-b507-8ae52b519ae9",
+        "created_at": "2023-08-29T20:33:10.407Z",
+        "updated_at": "2023-08-29T19:28:31.096Z",
+        "knowledge_id": "6771f9e6-d7a0-4f8a-8353-0cf5576aa315",
+        "player_id": "8b95b06b-cff6-43f6-a026-c30f6a18d949"
+      },
+      {
+        "id": "cbf5958a-9181-4fcb-94a2-0970cd15dc60",
+        "created_at": "2023-08-30T10:54:24.687Z",
+        "updated_at": "2023-08-30T12:24:11.354Z",
+        "knowledge_id": "0a8b6546-0dc3-441c-a4dc-17d4b4adbfb7",
+        "player_id": "3a73131e-44db-4349-980f-6e3ae1d3d37e"
+      },
+      {
+        "id": "7ca746fe-e20e-4265-9b3a-ee768f0b48f8",
+        "created_at": "2023-08-30T05:26:16.076Z",
+        "updated_at": "2023-08-30T09:53:48.713Z",
+        "knowledge_id": "0a8b6546-0dc3-441c-a4dc-17d4b4adbfb7",
+        "player_id": "a60fe047-5200-421c-9549-3890b3f9c4be"
+      },
+      {
+        "id": "53e3da68-7faf-4491-a244-b9fd489414b0",
+        "created_at": "2023-08-30T06:33:48.788Z",
+        "updated_at": "2023-08-30T04:27:45.248Z",
+        "knowledge_id": "49ec724e-d652-4221-b6d3-dba432eb9607",
+        "player_id": "3a73131e-44db-4349-980f-6e3ae1d3d37e"
+      },
+      {
+        "id": "724cb7b0-f060-4e83-83f7-addc7d8c31e2",
+        "created_at": "2023-08-29T13:36:26.022Z",
+        "updated_at": "2023-08-30T07:50:35.557Z",
+        "knowledge_id": "6771f9e6-d7a0-4f8a-8353-0cf5576aa315",
+        "player_id": "a60fe047-5200-421c-9549-3890b3f9c4be"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e13a180b-a287-4676-accb-70443215937c",
+        "email": "Domenica_Tremblay49@gmail.com",
+        "firstName": "Kitty",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/560.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5692afc3-96de-4184-b2e2-10f844e65968",
+        "email": "Benjamin10@yahoo.com",
+        "firstName": "Shanna",
+        "lastName": "Ferry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/321.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec16cb44-7ab7-4824-b460-df60325ec4c4",
+        "email": "Raleigh.Gottlieb-Gottlieb80@hotmail.com",
+        "firstName": "Rose",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b6aa66d0-306f-4194-b230-6d217a1d5d41",
+        "email": "Jailyn52@gmail.com",
+        "firstName": "Mabelle",
+        "lastName": "Jacobi",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/578.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2772f08-47df-4490-8df0-caf427020c10",
+        "email": "Darian.Leffler14@yahoo.com",
+        "firstName": "Jaqueline",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/256055",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "7f2b253e-ca0b-411d-9b91-9f75d8e44d3c",
+        "name": "Robbery",
+        "num_players": 5707,
+        "num_killers": 15703,
+        "victim_name": "John Doe",
+        "created_at": "2023-08-30T04:32:02.479Z",
+        "updated_at": "2023-08-29T15:46:51.045Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "2dbd426a-0db8-4170-a246-e110caa21aa2",
+        "name": "Burglary",
+        "num_players": 37401,
+        "num_killers": 44178,
+        "victim_name": "Jane Smith",
+        "created_at": "2023-08-30T04:48:37.726Z",
+        "updated_at": "2023-08-30T03:21:23.329Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "d15f10e6-45f0-4dc1-9592-218400fe93f3",
+        "name": "Assault",
+        "num_players": 24532,
+        "num_killers": 41044,
+        "victim_name": "Robert Johnson",
+        "created_at": "2023-08-30T00:10:36.993Z",
+        "updated_at": "2023-08-30T08:32:29.070Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "79e7d419-ed70-426b-a161-17cdaad7baad",
+        "name": "Fraud",
+        "num_players": 71421,
+        "num_killers": 62934,
+        "victim_name": "Emily Williams",
+        "created_at": "2023-08-29T16:59:19.881Z",
+        "updated_at": "2023-08-29T16:28:09.282Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f2b213f3-f335-46e1-b793-11d0d60fe518",
+        "name": "Drug trafficking",
+        "num_players": 10921,
+        "num_killers": 31303,
+        "victim_name": "Michael Brown",
+        "created_at": "2023-08-29T14:32:42.337Z",
+        "updated_at": "2023-08-30T09:37:06.044Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "279cc588-7492-428b-af7d-99283502c1f3",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T00:21:06.584Z",
+        "updated_at": "2023-08-29T16:34:28.535Z",
+        "crime_id": "d15f10e6-45f0-4dc1-9592-218400fe93f3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74e60c65-89b7-4061-8b82-e2dba7c9c56e",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-30T13:15:03.539Z",
+        "updated_at": "2023-08-29T16:54:24.818Z",
+        "crime_id": "f2b213f3-f335-46e1-b793-11d0d60fe518",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c7fdd53-1226-4463-9832-35612639f5f2",
+        "name": "Neymar Jr",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-30T05:20:08.546Z",
+        "updated_at": "2023-08-30T04:38:12.711Z",
+        "crime_id": "79e7d419-ed70-426b-a161-17cdaad7baad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09294e32-7f55-4d4b-ae21-5b8e9e888400",
+        "name": "Kylian Mbappe",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-29T22:24:16.553Z",
+        "updated_at": "2023-08-30T06:50:07.440Z",
+        "crime_id": "79e7d419-ed70-426b-a161-17cdaad7baad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a745b858-c2c9-48e1-be57-a553cba953c3",
+        "name": "Mohamed Salah",
+        "personality_trait": "Ambitious",
+        "created_at": "2023-08-30T04:16:04.334Z",
+        "updated_at": "2023-08-29T22:56:26.923Z",
+        "crime_id": "7f2b253e-ca0b-411d-9b91-9f75d8e44d3c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "ada738f2-1eff-4c0b-b0c2-1254baebcf29",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 8746,
+        "num_characters": 65530,
+        "witness_text": "I saw it happen with my own eyes",
+        "self_text": "I have personal experience with it",
+        "created_at": "2023-08-30T12:51:48.954Z",
+        "updated_at": "2023-08-30T04:20:01.645Z",
+        "crime_id": "d15f10e6-45f0-4dc1-9592-218400fe93f3"
+      },
+      {
+        "id": "7ca87b77-1974-499b-8ab4-0790c7979a6c",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 14129,
+        "num_characters": 85093,
+        "witness_text": "I heard it from a reliable source",
+        "self_text": "I have studied it extensively",
+        "created_at": "2023-08-30T03:01:54.142Z",
+        "updated_at": "2023-08-30T00:33:27.431Z",
+        "crime_id": "79e7d419-ed70-426b-a161-17cdaad7baad"
+      },
+      {
+        "id": "3dfeba33-57cf-4cd8-a11e-2e4029fb49bb",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 43802,
+        "num_characters": 96771,
+        "witness_text": "I read about it in a book",
+        "self_text": "I have written papers on it",
+        "created_at": "2023-08-30T09:38:45.143Z",
+        "updated_at": "2023-08-30T13:11:34.647Z",
+        "crime_id": "79e7d419-ed70-426b-a161-17cdaad7baad"
+      },
+      {
+        "id": "441a1595-13d9-447c-8fee-6aa34ef2e766",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 12062,
+        "num_characters": 42283,
+        "witness_text": "I learned it in school",
+        "self_text": "I have taught it to others",
+        "created_at": "2023-08-30T10:37:14.736Z",
+        "updated_at": "2023-08-30T03:22:42.291Z",
+        "crime_id": "f2b213f3-f335-46e1-b793-11d0d60fe518"
+      },
+      {
+        "id": "d0436461-69da-45af-be37-e290e340b092",
+        "name": "Literature",
+        "type": "Literary",
+        "num_witnesses": 94548,
+        "num_characters": 11894,
+        "witness_text": "I conducted experiments to prove it",
+        "self_text": "I have received awards for my knowledge",
+        "created_at": "2023-08-29T22:52:10.857Z",
+        "updated_at": "2023-08-29T18:00:35.808Z",
+        "crime_id": "7f2b253e-ca0b-411d-9b91-9f75d8e44d3c"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "375fdc6d-f298-4cb9-a2f2-5ef9e7338499",
+        "created_at": "2023-08-29T17:22:51.191Z",
+        "updated_at": "2023-08-30T03:51:21.936Z",
+        "knowledge_id": "441a1595-13d9-447c-8fee-6aa34ef2e766",
+        "player_id": "2c7fdd53-1226-4463-9832-35612639f5f2"
+      },
+      {
+        "id": "1d215125-ee26-4a9c-bd73-6a5beb138293",
+        "created_at": "2023-08-29T20:43:41.774Z",
+        "updated_at": "2023-08-30T10:08:02.532Z",
+        "knowledge_id": "3dfeba33-57cf-4cd8-a11e-2e4029fb49bb",
+        "player_id": "a745b858-c2c9-48e1-be57-a553cba953c3"
+      },
+      {
+        "id": "1296bd44-74f8-4cad-b516-4e705ed32cd7",
+        "created_at": "2023-08-30T09:11:23.281Z",
+        "updated_at": "2023-08-29T17:08:13.458Z",
+        "knowledge_id": "3dfeba33-57cf-4cd8-a11e-2e4029fb49bb",
+        "player_id": "279cc588-7492-428b-af7d-99283502c1f3"
+      },
+      {
+        "id": "cf69c674-3e36-4776-aceb-c89abd88a4b3",
+        "created_at": "2023-08-29T19:41:57.568Z",
+        "updated_at": "2023-08-29T14:04:44.630Z",
+        "knowledge_id": "d0436461-69da-45af-be37-e290e340b092",
+        "player_id": "74e60c65-89b7-4061-8b82-e2dba7c9c56e"
+      },
+      {
+        "id": "5d78a62f-b4cd-4ad3-b8bc-bf73af4db317",
+        "created_at": "2023-08-29T16:42:45.205Z",
+        "updated_at": "2023-08-29T17:49:02.251Z",
+        "knowledge_id": "3dfeba33-57cf-4cd8-a11e-2e4029fb49bb",
+        "player_id": "a745b858-c2c9-48e1-be57-a553cba953c3"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7e7791c7-4d58-432c-bc67-bdda0d578813",
+        "email": "Mekhi_Kautzer24@hotmail.com",
+        "firstName": "Johnathon",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1128.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b2e22645-b3d9-4e8f-89db-465f335c212d",
+        "email": "Jeff.Lehner@hotmail.com",
+        "firstName": "Makayla",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/318.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a53528b7-d5e4-486b-8f4c-6c7830b7a651",
+        "email": "Abdullah_Powlowski84@gmail.com",
+        "firstName": "Marianne",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/29734341",
+        "tenantId": null
+      },
+      {
+        "reference": "36724326-739a-4a4c-9af5-6c9f1dfb47cb",
+        "email": "Dandre_Becker9@gmail.com",
+        "firstName": "Zelma",
+        "lastName": "Walker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/448.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f30fa915-8bcb-4a5a-9e27-d03530ffe539",
+        "email": "Alfred_McGlynn@hotmail.com",
+        "firstName": "Jared",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/297.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "41675626-22aa-40e3-85f9-6d406c2fa7db",
+        "name": "Robbery",
+        "num_players": 41829,
+        "num_killers": 57609,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-30T10:33:44.075Z",
+        "updated_at": "2023-08-30T08:23:54.302Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fbe09e31-bf49-4c1c-96d9-ee6d16bfe83b",
+        "name": "Assault",
+        "num_players": 1602,
+        "num_killers": 98726,
+        "victim_name": "Emily Johnson",
+        "created_at": "2023-08-30T13:02:17.853Z",
+        "updated_at": "2023-08-29T14:38:55.036Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "93ec5b17-e94b-4e84-b9d9-30104b804c2b",
+        "name": "Burglary",
+        "num_players": 49341,
+        "num_killers": 80878,
+        "victim_name": "Michael Brown",
+        "created_at": "2023-08-30T02:50:13.312Z",
+        "updated_at": "2023-08-29T22:28:37.725Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "5eb6cb20-3bda-41d3-81cc-25516d0a8add",
+        "name": "Fraud",
+        "num_players": 7623,
+        "num_killers": 55798,
+        "victim_name": "Sophia Davis",
+        "created_at": "2023-08-29T19:30:09.330Z",
+        "updated_at": "2023-08-30T12:30:56.834Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "88cab4d8-3455-4eb6-a1dc-862941dc1e80",
+        "name": "Kidnapping",
+        "num_players": 44825,
+        "num_killers": 52894,
+        "victim_name": "Daniel Wilson",
+        "created_at": "2023-08-30T13:21:51.038Z",
+        "updated_at": "2023-08-29T14:22:12.759Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "7a69e323-ead2-4f45-ac08-578e7ebee7e5",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T02:21:37.617Z",
+        "updated_at": "2023-08-30T07:51:51.341Z",
+        "crime_id": "fbe09e31-bf49-4c1c-96d9-ee6d16bfe83b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2098e406-d4c4-40d9-9a92-d63f745d8766",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-30T06:33:11.611Z",
+        "updated_at": "2023-08-30T05:25:16.714Z",
+        "crime_id": "41675626-22aa-40e3-85f9-6d406c2fa7db",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5335e24c-428e-4a5a-a15e-1055db5ca5fb",
+        "name": "Neymar Jr.",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-29T21:42:07.042Z",
+        "updated_at": "2023-08-30T06:46:53.423Z",
+        "crime_id": "5eb6cb20-3bda-41d3-81cc-25516d0a8add",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28769195-b223-45bc-90a0-152a3f7f3c29",
+        "name": "Kylian Mbappe",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-29T23:24:19.751Z",
+        "updated_at": "2023-08-30T10:44:20.985Z",
+        "crime_id": "88cab4d8-3455-4eb6-a1dc-862941dc1e80",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77ebd3c0-5081-4f53-bf8b-f55cbd48468a",
+        "name": "Mohamed Salah",
+        "personality_trait": "Ambitious",
+        "created_at": "2023-08-30T05:02:55.410Z",
+        "updated_at": "2023-08-29T17:36:11.310Z",
+        "crime_id": "88cab4d8-3455-4eb6-a1dc-862941dc1e80",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "6d31506d-5074-4a70-bc03-2f5ad01450b5",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 21496,
+        "num_characters": 30137,
+        "witness_text": "I saw it with my own eyes",
+        "self_text": "I have personal experience with it",
+        "created_at": "2023-08-29T16:50:39.051Z",
+        "updated_at": "2023-08-30T08:49:22.861Z",
+        "crime_id": "93ec5b17-e94b-4e84-b9d9-30104b804c2b"
+      },
+      {
+        "id": "ad38edf2-7cf7-49dd-a817-2f387a3b0875",
+        "name": "History",
+        "type": "Cultural",
+        "num_witnesses": 23963,
+        "num_characters": 15670,
+        "witness_text": "There were multiple witnesses",
+        "self_text": "I have studied it extensively",
+        "created_at": "2023-08-29T17:36:00.960Z",
+        "updated_at": "2023-08-29T15:44:50.164Z",
+        "crime_id": "5eb6cb20-3bda-41d3-81cc-25516d0a8add"
+      },
+      {
+        "id": "7ef4e091-f92f-4a43-a6da-a1820cc55cae",
+        "name": "Mathematics",
+        "type": "Quantitative",
+        "num_witnesses": 26652,
+        "num_characters": 49249,
+        "witness_text": "The evidence supports it",
+        "self_text": "I have conducted experiments on it",
+        "created_at": "2023-08-30T00:22:14.582Z",
+        "updated_at": "2023-08-30T10:01:44.668Z",
+        "crime_id": "41675626-22aa-40e3-85f9-6d406c2fa7db"
+      },
+      {
+        "id": "83f5e61a-c771-4ab2-b39b-ababb38fe922",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 77986,
+        "num_characters": 57316,
+        "witness_text": "It's a well-known fact",
+        "self_text": "I have written papers on it",
+        "created_at": "2023-08-29T14:07:04.393Z",
+        "updated_at": "2023-08-29T16:59:36.664Z",
+        "crime_id": "fbe09e31-bf49-4c1c-96d9-ee6d16bfe83b"
+      },
+      {
+        "id": "f113a3d4-26c7-4f70-a901-3dc8bfa9bf1c",
+        "name": "Literature",
+        "type": "Artistic",
+        "num_witnesses": 5310,
+        "num_characters": 2944,
+        "witness_text": "Experts have confirmed it",
+        "self_text": "I have received awards for my work on it",
+        "created_at": "2023-08-30T13:10:38.126Z",
+        "updated_at": "2023-08-30T08:54:44.341Z",
+        "crime_id": "93ec5b17-e94b-4e84-b9d9-30104b804c2b"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "b2275859-e120-43d8-8756-f9b68bba7f0c",
+        "created_at": "2023-08-29T21:51:03.031Z",
+        "updated_at": "2023-08-30T00:29:08.328Z",
+        "knowledge_id": "f113a3d4-26c7-4f70-a901-3dc8bfa9bf1c",
+        "player_id": "2098e406-d4c4-40d9-9a92-d63f745d8766"
+      },
+      {
+        "id": "3bb2f5ae-ebc2-4261-8c6c-55c25effd2b6",
+        "created_at": "2023-08-30T04:31:00.663Z",
+        "updated_at": "2023-08-30T06:07:08.792Z",
+        "knowledge_id": "f113a3d4-26c7-4f70-a901-3dc8bfa9bf1c",
+        "player_id": "5335e24c-428e-4a5a-a15e-1055db5ca5fb"
+      },
+      {
+        "id": "168216e0-1086-4a87-9a89-0bf57d4b03ef",
+        "created_at": "2023-08-30T06:53:19.358Z",
+        "updated_at": "2023-08-30T08:56:05.363Z",
+        "knowledge_id": "6d31506d-5074-4a70-bc03-2f5ad01450b5",
+        "player_id": "2098e406-d4c4-40d9-9a92-d63f745d8766"
+      },
+      {
+        "id": "6eb5118f-34a2-4a77-a031-df25359d422b",
+        "created_at": "2023-08-30T12:23:14.457Z",
+        "updated_at": "2023-08-30T08:58:13.107Z",
+        "knowledge_id": "ad38edf2-7cf7-49dd-a817-2f387a3b0875",
+        "player_id": "5335e24c-428e-4a5a-a15e-1055db5ca5fb"
+      },
+      {
+        "id": "9a5cc936-9bea-4971-82e9-7cd45124197a",
+        "created_at": "2023-08-29T15:36:14.276Z",
+        "updated_at": "2023-08-30T12:04:42.552Z",
+        "knowledge_id": "7ef4e091-f92f-4a43-a6da-a1820cc55cae",
+        "player_id": "77ebd3c0-5081-4f53-bf8b-f55cbd48468a"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aa5ca418-66b8-4d0d-a2fa-66e046fcbb16",
+        "email": "Keven51@gmail.com",
+        "firstName": "Brant",
+        "lastName": "Abernathy-Hoeger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14072699",
+        "tenantId": null
+      },
+      {
+        "reference": "56f2e4b3-1d70-4399-bd1d-784bf9320789",
+        "email": "Casey77@yahoo.com",
+        "firstName": "Barrett",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16696057",
+        "tenantId": null
+      },
+      {
+        "reference": "eb13fba0-433d-4dfd-934f-16cfd6707dac",
+        "email": "Lawrence16@hotmail.com",
+        "firstName": "Melany",
+        "lastName": "Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85223794",
+        "tenantId": null
+      },
+      {
+        "reference": "22a323c6-94c1-48bf-9505-94ba42b185f1",
+        "email": "Tyrique_Dare84@yahoo.com",
+        "firstName": "Jalon",
+        "lastName": "Jacobson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1087.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a0f20a5-4b4a-43b7-9f3d-6402ba309770",
+        "email": "Macy.Cronin@gmail.com",
+        "firstName": "Diamond",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/539.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "a3a6fb50-9e24-4abc-ac86-985d6b0718ca",
+        "name": "Burglary",
+        "num_players": 47920,
+        "num_killers": 12970,
+        "victim_name": "John Doe",
+        "created_at": "2023-08-30T02:03:56.379Z",
+        "updated_at": "2023-08-29T16:03:43.821Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "4e583170-8011-43b7-bba5-ff11023a88af",
+        "name": "Assault",
+        "num_players": 49920,
+        "num_killers": 72872,
+        "victim_name": "Jane Smith",
+        "created_at": "2023-08-30T11:40:27.579Z",
+        "updated_at": "2023-08-30T12:43:40.930Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "3d9388b6-286f-4922-b5b9-a375ead40614",
+        "name": "Fraud",
+        "num_players": 47615,
+        "num_killers": 16324,
+        "victim_name": "Michael Johnson",
+        "created_at": "2023-08-29T19:06:18.927Z",
+        "updated_at": "2023-08-29T18:15:14.333Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "fec73104-b1d2-4e3a-975d-19655ca51a4c",
+        "name": "Robbery",
+        "num_players": 71535,
+        "num_killers": 8913,
+        "victim_name": "Sarah Wilson",
+        "created_at": "2023-08-29T14:25:22.507Z",
+        "updated_at": "2023-08-30T11:42:11.298Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "9db34db4-88d4-48b3-9429-a0b65b883a92",
+        "name": "Homicide",
+        "num_players": 35943,
+        "num_killers": 86258,
+        "victim_name": "Robert Brown",
+        "created_at": "2023-08-29T23:49:56.406Z",
+        "updated_at": "2023-08-29T20:24:52.805Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "009a602b-541f-442f-acbe-d9c08e1ffc15",
+        "name": "Lionel Messi",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-29T13:45:55.484Z",
+        "updated_at": "2023-08-29T23:55:59.041Z",
+        "crime_id": "9db34db4-88d4-48b3-9429-a0b65b883a92",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e0093e0-7dc7-4209-931c-76b541a546a5",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T12:28:18.485Z",
+        "updated_at": "2023-08-29T20:52:07.461Z",
+        "crime_id": "4e583170-8011-43b7-bba5-ff11023a88af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "085a8276-43c1-45cf-86f2-1e715d556426",
+        "name": "Neymar Jr",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-30T10:55:18.957Z",
+        "updated_at": "2023-08-30T04:10:12.721Z",
+        "crime_id": "3d9388b6-286f-4922-b5b9-a375ead40614",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2b0b1e6f-7ffe-40db-af0e-6ef74fa8ec3d",
+        "name": "Kylian Mbappe",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-29T21:45:01.353Z",
+        "updated_at": "2023-08-30T05:34:08.602Z",
+        "crime_id": "3d9388b6-286f-4922-b5b9-a375ead40614",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ed20768-827f-4261-9abc-d1a7a36ef8d2",
+        "name": "Robert Lewandowski",
+        "personality_trait": "Focused",
+        "created_at": "2023-08-29T19:41:37.924Z",
+        "updated_at": "2023-08-29T23:07:08.053Z",
+        "crime_id": "a3a6fb50-9e24-4abc-ac86-985d6b0718ca",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "05231d35-ef87-4d06-be7d-4e12194503e1",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 15322,
+        "num_characters": 87435,
+        "witness_text": "I saw it with my own eyes",
+        "self_text": "I have always been interested in this subject",
+        "created_at": "2023-08-29T18:37:09.876Z",
+        "updated_at": "2023-08-30T02:51:13.725Z",
+        "crime_id": "3d9388b6-286f-4922-b5b9-a375ead40614"
+      },
+      {
+        "id": "3451c551-f092-42a8-85fc-06572a475cdb",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 26157,
+        "num_characters": 39753,
+        "witness_text": "It was an unforgettable experience",
+        "self_text": "I have dedicated years to studying this topic",
+        "created_at": "2023-08-30T06:16:30.754Z",
+        "updated_at": "2023-08-29T15:41:28.423Z",
+        "crime_id": "4e583170-8011-43b7-bba5-ff11023a88af"
+      },
+      {
+        "id": "0c868aba-1152-4e18-8153-ce69d339ac70",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 37381,
+        "num_characters": 83698,
+        "witness_text": "I can't believe what I witnessed",
+        "self_text": "I am passionate about expanding my knowledge in this area",
+        "created_at": "2023-08-30T00:05:59.252Z",
+        "updated_at": "2023-08-30T11:39:32.947Z",
+        "crime_id": "a3a6fb50-9e24-4abc-ac86-985d6b0718ca"
+      },
+      {
+        "id": "94c840e9-c9b2-412c-8080-b5e8ec286729",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 62194,
+        "num_characters": 69069,
+        "witness_text": "It completely changed my perspective",
+        "self_text": "I find this subject fascinating",
+        "created_at": "2023-08-29T18:05:46.304Z",
+        "updated_at": "2023-08-30T12:00:02.509Z",
+        "crime_id": "4e583170-8011-43b7-bba5-ff11023a88af"
+      },
+      {
+        "id": "ee61b782-b47b-4b2d-b349-e2a8a7010ad4",
+        "name": "Psychology",
+        "type": "Psychological",
+        "num_witnesses": 94584,
+        "num_characters": 26761,
+        "witness_text": "I will never forget that moment",
+        "self_text": "I believe this knowledge is crucial for personal growth",
+        "created_at": "2023-08-30T02:20:46.517Z",
+        "updated_at": "2023-08-29T21:03:00.299Z",
+        "crime_id": "fec73104-b1d2-4e3a-975d-19655ca51a4c"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "3f30a3ee-d09a-491f-8b07-0ef1bd8aba58",
+        "created_at": "2023-08-29T15:52:00.356Z",
+        "updated_at": "2023-08-30T03:17:16.509Z",
+        "knowledge_id": "94c840e9-c9b2-412c-8080-b5e8ec286729",
+        "player_id": "009a602b-541f-442f-acbe-d9c08e1ffc15"
+      },
+      {
+        "id": "e843bf60-2f29-4e53-b766-f93acb08cad5",
+        "created_at": "2023-08-30T04:09:22.479Z",
+        "updated_at": "2023-08-30T03:08:37.017Z",
+        "knowledge_id": "0c868aba-1152-4e18-8153-ce69d339ac70",
+        "player_id": "009a602b-541f-442f-acbe-d9c08e1ffc15"
+      },
+      {
+        "id": "f2376a46-246f-41db-b02a-ca9b5f3fa404",
+        "created_at": "2023-08-30T06:05:09.778Z",
+        "updated_at": "2023-08-30T03:50:37.396Z",
+        "knowledge_id": "94c840e9-c9b2-412c-8080-b5e8ec286729",
+        "player_id": "085a8276-43c1-45cf-86f2-1e715d556426"
+      },
+      {
+        "id": "26ab32c1-d686-499a-bbd1-d70d65d22fd0",
+        "created_at": "2023-08-29T16:25:45.871Z",
+        "updated_at": "2023-08-29T23:50:53.605Z",
+        "knowledge_id": "ee61b782-b47b-4b2d-b349-e2a8a7010ad4",
+        "player_id": "4e0093e0-7dc7-4209-931c-76b541a546a5"
+      },
+      {
+        "id": "bf3cdec0-dc9c-4bd1-80d0-7fb7ba4ef7eb",
+        "created_at": "2023-08-29T19:45:15.278Z",
+        "updated_at": "2023-08-30T13:09:50.892Z",
+        "knowledge_id": "ee61b782-b47b-4b2d-b349-e2a8a7010ad4",
+        "player_id": "4e0093e0-7dc7-4209-931c-76b541a546a5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "af7ad067-7376-43c0-923b-22602e097199",
+        "email": "Jayda88@yahoo.com",
+        "firstName": "Jayden",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89313784",
+        "tenantId": null
+      },
+      {
+        "reference": "33a83c72-f64d-4ead-a5f3-d86876cba023",
+        "email": "Bettye_Dickens93@hotmail.com",
+        "firstName": "Amy",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/646.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1c61273d-d7fd-4a83-8c57-e19ff11192ae",
+        "email": "Diego.Ratke-Kessler@hotmail.com",
+        "firstName": "Audie",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/920.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64b4ff76-8a72-4467-890c-c3bf898caa0b",
+        "email": "Curtis.Barrows@hotmail.com",
+        "firstName": "Odessa",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67153249",
+        "tenantId": null
+      },
+      {
+        "reference": "b2aa5174-3332-45f4-92f0-725f2bcaac54",
+        "email": "Merl_Abbott@gmail.com",
+        "firstName": "Meagan",
+        "lastName": "Kilback",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "f395b9b6-ecae-453b-b359-4425cdae366b",
+        "name": "Robbery",
+        "num_players": 9724,
+        "num_killers": 11803,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-30T11:26:51.696Z",
+        "updated_at": "2023-08-29T14:44:17.279Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "417517b1-7a30-43ae-9937-add6a8834d71",
+        "name": "Burglary",
+        "num_players": 43729,
+        "num_killers": 62962,
+        "victim_name": "Emily Johnson",
+        "created_at": "2023-08-30T02:17:27.982Z",
+        "updated_at": "2023-08-30T04:24:44.077Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "bf59ea0e-e95b-4ea8-83bf-1b01111d28e4",
+        "name": "Assault",
+        "num_players": 62216,
+        "num_killers": 89690,
+        "victim_name": "Michael Brown",
+        "created_at": "2023-08-29T21:49:21.616Z",
+        "updated_at": "2023-08-29T15:34:45.130Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "671884aa-4fa8-4de4-919b-cffb2d18dab4",
+        "name": "Fraud",
+        "num_players": 20633,
+        "num_killers": 79732,
+        "victim_name": "Sophia Davis",
+        "created_at": "2023-08-30T05:37:05.824Z",
+        "updated_at": "2023-08-30T06:00:50.811Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "61b64589-cc1b-4375-bc33-b81c2c95aa3c",
+        "name": "Homicide",
+        "num_players": 80096,
+        "num_killers": 68963,
+        "victim_name": "Daniel Wilson",
+        "created_at": "2023-08-30T01:27:10.967Z",
+        "updated_at": "2023-08-30T12:52:37.543Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "4bd4f631-4704-48b2-8908-c048d59bca77",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-30T12:17:30.096Z",
+        "updated_at": "2023-08-30T01:22:37.250Z",
+        "crime_id": "417517b1-7a30-43ae-9937-add6a8834d71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56eeae9e-d46a-46b6-a455-3f8582a16f35",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-30T08:49:42.396Z",
+        "updated_at": "2023-08-29T16:09:40.099Z",
+        "crime_id": "671884aa-4fa8-4de4-919b-cffb2d18dab4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e38c6e45-1fdc-4af3-b8b6-adacd78ff208",
+        "name": "Neymar Jr.",
+        "personality_trait": "Creative",
+        "created_at": "2023-08-30T05:15:11.228Z",
+        "updated_at": "2023-08-29T16:03:29.468Z",
+        "crime_id": "bf59ea0e-e95b-4ea8-83bf-1b01111d28e4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90d8a741-0abd-4547-9a42-2e9305f5d905",
+        "name": "Kylian Mbappé",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-30T02:40:41.129Z",
+        "updated_at": "2023-08-30T08:59:50.014Z",
+        "crime_id": "671884aa-4fa8-4de4-919b-cffb2d18dab4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6988239a-69e0-4e29-860f-eaf812190e82",
+        "name": "Mohamed Salah",
+        "personality_trait": "Passionate",
+        "created_at": "2023-08-30T12:55:15.525Z",
+        "updated_at": "2023-08-30T10:30:09.135Z",
+        "crime_id": "bf59ea0e-e95b-4ea8-83bf-1b01111d28e4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "5ad9549e-86ac-47a6-94ab-a90dc2653e97",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 1781,
+        "num_characters": 35430,
+        "witness_text": "I saw it happen with my own eyes!",
+        "self_text": "I have studied this subject extensively.",
+        "created_at": "2023-08-30T04:32:16.859Z",
+        "updated_at": "2023-08-30T09:29:51.048Z",
+        "crime_id": "671884aa-4fa8-4de4-919b-cffb2d18dab4"
+      },
+      {
+        "id": "9873236f-1101-41c9-a15b-675fda28e324",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 67597,
+        "num_characters": 9768,
+        "witness_text": "The evidence clearly points to the suspect.",
+        "self_text": "I am well-versed in this area of knowledge.",
+        "created_at": "2023-08-30T02:36:14.377Z",
+        "updated_at": "2023-08-29T21:16:46.817Z",
+        "crime_id": "671884aa-4fa8-4de4-919b-cffb2d18dab4"
+      },
+      {
+        "id": "42fa97fd-3dbc-4534-9b15-104facb64f0c",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 50201,
+        "num_characters": 11877,
+        "witness_text": "I can testify to the defendant's actions.",
+        "self_text": "I have conducted research on this topic.",
+        "created_at": "2023-08-30T03:32:49.803Z",
+        "updated_at": "2023-08-30T09:20:23.026Z",
+        "crime_id": "f395b9b6-ecae-453b-b359-4425cdae366b"
+      },
+      {
+        "id": "b87c33df-9230-44f2-a628-e9420e3e859e",
+        "name": "Psychology",
+        "type": "Psychological",
+        "num_witnesses": 59393,
+        "num_characters": 20641,
+        "witness_text": "I have firsthand knowledge of the incident.",
+        "self_text": "I possess deep understanding of this subject.",
+        "created_at": "2023-08-30T11:07:32.735Z",
+        "updated_at": "2023-08-29T22:54:34.974Z",
+        "crime_id": "f395b9b6-ecae-453b-b359-4425cdae366b"
+      },
+      {
+        "id": "d2969979-6656-48d5-90d5-7da8d173ca5f",
+        "name": "Computer Science",
+        "type": "Technological",
+        "num_witnesses": 88409,
+        "num_characters": 45757,
+        "witness_text": "I observed the crime scene carefully.",
+        "self_text": "I have practical experience in this field.",
+        "created_at": "2023-08-30T08:29:44.555Z",
+        "updated_at": "2023-08-29T17:04:52.436Z",
+        "crime_id": "61b64589-cc1b-4375-bc33-b81c2c95aa3c"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "3039ebbf-2ee9-4818-9e69-2000922eeec8",
+        "created_at": "2023-08-29T23:16:17.629Z",
+        "updated_at": "2023-08-29T14:41:08.720Z",
+        "knowledge_id": "9873236f-1101-41c9-a15b-675fda28e324",
+        "player_id": "90d8a741-0abd-4547-9a42-2e9305f5d905"
+      },
+      {
+        "id": "2e3d27a3-6dcc-4748-849c-552435aebd2e",
+        "created_at": "2023-08-30T12:11:54.256Z",
+        "updated_at": "2023-08-30T13:06:06.278Z",
+        "knowledge_id": "9873236f-1101-41c9-a15b-675fda28e324",
+        "player_id": "e38c6e45-1fdc-4af3-b8b6-adacd78ff208"
+      },
+      {
+        "id": "4b4e8425-b29b-4d97-a8b4-f33b38ad2718",
+        "created_at": "2023-08-30T12:22:00.015Z",
+        "updated_at": "2023-08-29T20:36:09.243Z",
+        "knowledge_id": "b87c33df-9230-44f2-a628-e9420e3e859e",
+        "player_id": "e38c6e45-1fdc-4af3-b8b6-adacd78ff208"
+      },
+      {
+        "id": "39912d34-10a2-46df-aa04-0590d9fd7a17",
+        "created_at": "2023-08-30T00:03:57.181Z",
+        "updated_at": "2023-08-29T18:24:37.558Z",
+        "knowledge_id": "9873236f-1101-41c9-a15b-675fda28e324",
+        "player_id": "4bd4f631-4704-48b2-8908-c048d59bca77"
+      },
+      {
+        "id": "df146232-6753-4d19-9b49-58b5cf498a85",
+        "created_at": "2023-08-29T17:32:07.598Z",
+        "updated_at": "2023-08-30T04:53:49.082Z",
+        "knowledge_id": "d2969979-6656-48d5-90d5-7da8d173ca5f",
+        "player_id": "6988239a-69e0-4e29-860f-eaf812190e82"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e4db55df-d961-4464-bb18-3bda418ebd83",
+        "email": "Brenden_Medhurst13@gmail.com",
+        "firstName": "Dessie",
+        "lastName": "Volkman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68187170",
+        "tenantId": null
+      },
+      {
+        "reference": "5066098e-3e8f-468a-bd66-430d0d44491f",
+        "email": "Presley94@hotmail.com",
+        "firstName": "Derrick",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62146536",
+        "tenantId": null
+      },
+      {
+        "reference": "67649de0-914c-4dee-bec9-7cfc7cc64042",
+        "email": "Barrett92@gmail.com",
+        "firstName": "Maureen",
+        "lastName": "Effertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82312507",
+        "tenantId": null
+      },
+      {
+        "reference": "ed917df7-d690-42a9-aef1-257f10ea786d",
+        "email": "Mason31@yahoo.com",
+        "firstName": "Roberto",
+        "lastName": "Schulist",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/597.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37187493-89a7-4f0f-812d-d0b5f1a30c51",
+        "email": "Stephon67@yahoo.com",
+        "firstName": "D'angelo",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/878178",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "crime": [
+      {
+        "id": "dc6a2883-e5d2-4be9-a167-3dd8020615c5",
+        "name": "Robbery",
+        "num_players": 50636,
+        "num_killers": 21391,
+        "victim_name": "John Smith",
+        "created_at": "2023-08-30T08:06:37.262Z",
+        "updated_at": "2023-08-30T09:18:05.993Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "ae27868f-a7e0-43ef-bc6a-5df7114638d0",
+        "name": "Burglary",
+        "num_players": 15544,
+        "num_killers": 76947,
+        "victim_name": "Emily Johnson",
+        "created_at": "2023-08-30T10:23:50.064Z",
+        "updated_at": "2023-08-30T09:13:16.243Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "13855280-862d-4879-b81d-964a16e80ce4",
+        "name": "Assault",
+        "num_players": 60222,
+        "num_killers": 47119,
+        "victim_name": "Michael Davis",
+        "created_at": "2023-08-30T03:30:09.957Z",
+        "updated_at": "2023-08-30T01:20:46.988Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "e4403e4f-c7fa-4e17-b7e3-5f84d2a962de",
+        "name": "Fraud",
+        "num_players": 35375,
+        "num_killers": 85838,
+        "victim_name": "Sophia Martinez",
+        "created_at": "2023-08-29T16:17:41.803Z",
+        "updated_at": "2023-08-29T18:35:08.148Z",
+        "organization_id": "main_entity_pk"
+      },
+      {
+        "id": "f5643391-8317-4cee-903a-aaa949f2f5ef",
+        "name": "Drug Possession",
+        "num_players": 50314,
+        "num_killers": 41487,
+        "victim_name": "Daniel Anderson",
+        "created_at": "2023-08-30T01:37:56.034Z",
+        "updated_at": "2023-08-29T21:56:43.239Z",
+        "organization_id": "main_entity_pk"
+      }
+    ],
+    "player": [
+      {
+        "id": "ece6e758-898d-4247-a938-e5c1406ca422",
+        "name": "Lionel Messi",
+        "personality_trait": "Charismatic",
+        "created_at": "2023-08-29T15:56:31.983Z",
+        "updated_at": "2023-08-30T11:40:44.085Z",
+        "crime_id": "dc6a2883-e5d2-4be9-a167-3dd8020615c5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba2f8343-ad3a-464c-b1b6-a2878dbd412c",
+        "name": "Cristiano Ronaldo",
+        "personality_trait": "Determined",
+        "created_at": "2023-08-29T18:37:53.023Z",
+        "updated_at": "2023-08-30T09:06:13.017Z",
+        "crime_id": "e4403e4f-c7fa-4e17-b7e3-5f84d2a962de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4464b017-8f7a-43b9-85ab-a04192eae180",
+        "name": "Neymar Jr.",
+        "personality_trait": "Confident",
+        "created_at": "2023-08-30T05:02:36.803Z",
+        "updated_at": "2023-08-29T23:35:03.819Z",
+        "crime_id": "e4403e4f-c7fa-4e17-b7e3-5f84d2a962de",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5de68b7d-b285-4a1c-955c-f52e1d55332f",
+        "name": "Kylian Mbappé",
+        "personality_trait": "Creative",
+        "created_at": "2023-08-30T07:45:55.130Z",
+        "updated_at": "2023-08-29T23:55:34.526Z",
+        "crime_id": "13855280-862d-4879-b81d-964a16e80ce4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8b14087-4c0d-4945-87f4-686ad2f6d0dd",
+        "name": "Mohamed Salah",
+        "personality_trait": "Resilient",
+        "created_at": "2023-08-29T18:25:22.669Z",
+        "updated_at": "2023-08-30T10:17:03.974Z",
+        "crime_id": "13855280-862d-4879-b81d-964a16e80ce4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "knowledge": [
+      {
+        "id": "ad1fa6e6-e2ab-4fd4-95eb-20c711a99e80",
+        "name": "Physics",
+        "type": "Scientific",
+        "num_witnesses": 310,
+        "num_characters": 62788,
+        "witness_text": "I saw it happen with my own eyes",
+        "self_text": "I have personally experienced this",
+        "created_at": "2023-08-30T04:15:15.400Z",
+        "updated_at": "2023-08-29T19:23:45.352Z",
+        "crime_id": "13855280-862d-4879-b81d-964a16e80ce4"
+      },
+      {
+        "id": "204fe4aa-3b9b-4c3b-a3fd-da1628b65216",
+        "name": "History",
+        "type": "Historical",
+        "num_witnesses": 89272,
+        "num_characters": 55375,
+        "witness_text": "There were multiple witnesses who can confirm",
+        "self_text": "I have studied and practiced this extensively",
+        "created_at": "2023-08-30T08:36:38.006Z",
+        "updated_at": "2023-08-29T17:55:30.667Z",
+        "crime_id": "e4403e4f-c7fa-4e17-b7e3-5f84d2a962de"
+      },
+      {
+        "id": "8cb30287-1553-4519-aab6-c7ad2fd4872a",
+        "name": "Biology",
+        "type": "Biological",
+        "num_witnesses": 3632,
+        "num_characters": 45931,
+        "witness_text": "The evidence clearly points to this conclusion",
+        "self_text": "It is a subject I am passionate about",
+        "created_at": "2023-08-30T01:04:52.652Z",
+        "updated_at": "2023-08-29T19:25:51.729Z",
+        "crime_id": "ae27868f-a7e0-43ef-bc6a-5df7114638d0"
+      },
+      {
+        "id": "deb055d6-620a-44ac-bf11-917c63dd31a9",
+        "name": "Mathematics",
+        "type": "Mathematical",
+        "num_witnesses": 63019,
+        "num_characters": 37573,
+        "witness_text": "It is backed by extensive research and studies",
+        "self_text": "I have seen the positive impact of this",
+        "created_at": "2023-08-29T21:22:58.604Z",
+        "updated_at": "2023-08-29T19:18:38.786Z",
+        "crime_id": "dc6a2883-e5d2-4be9-a167-3dd8020615c5"
+      },
+      {
+        "id": "7fe64a42-63ef-4d2e-bdad-6143794f79f3",
+        "name": "Literature",
+        "type": "Literary",
+        "num_witnesses": 93003,
+        "num_characters": 25953,
+        "witness_text": "Experts in the field agree on this",
+        "self_text": "It has helped me grow and learn",
+        "created_at": "2023-08-30T06:44:17.299Z",
+        "updated_at": "2023-08-30T03:52:34.501Z",
+        "crime_id": "ae27868f-a7e0-43ef-bc6a-5df7114638d0"
+      }
+    ],
+    "player_knowledge": [
+      {
+        "id": "cab144df-cca4-488e-a5f6-317017c95232",
+        "created_at": "2023-08-29T19:55:52.669Z",
+        "updated_at": "2023-08-30T12:05:54.037Z",
+        "knowledge_id": "7fe64a42-63ef-4d2e-bdad-6143794f79f3",
+        "player_id": "ba2f8343-ad3a-464c-b1b6-a2878dbd412c"
+      },
+      {
+        "id": "fe1f91cf-811a-402b-a717-4d3f5a26f3e9",
+        "created_at": "2023-08-30T04:38:37.741Z",
+        "updated_at": "2023-08-29T17:04:00.451Z",
+        "knowledge_id": "deb055d6-620a-44ac-bf11-917c63dd31a9",
+        "player_id": "ba2f8343-ad3a-464c-b1b6-a2878dbd412c"
+      },
+      {
+        "id": "25f31469-02a1-4cc9-859e-fcf9ddee72ea",
+        "created_at": "2023-08-30T10:42:15.239Z",
+        "updated_at": "2023-08-29T17:08:44.110Z",
+        "knowledge_id": "204fe4aa-3b9b-4c3b-a3fd-da1628b65216",
+        "player_id": "5de68b7d-b285-4a1c-955c-f52e1d55332f"
+      },
+      {
+        "id": "eb83d3a3-db3f-4a5e-9819-3595dc092d8a",
+        "created_at": "2023-08-29T22:47:09.358Z",
+        "updated_at": "2023-08-30T10:41:38.273Z",
+        "knowledge_id": "deb055d6-620a-44ac-bf11-917c63dd31a9",
+        "player_id": "4464b017-8f7a-43b9-85ab-a04192eae180"
+      },
+      {
+        "id": "ebe39e93-bb4f-470e-a8d2-93ddc843caba",
+        "created_at": "2023-08-29T15:08:17.750Z",
+        "updated_at": "2023-08-29T16:41:36.556Z",
+        "knowledge_id": "deb055d6-620a-44ac-bf11-917c63dd31a9",
+        "player_id": "5de68b7d-b285-4a1c-955c-f52e1d55332f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "82687cea-2af6-4651-8bf3-53af307916d2",
+        "email": "Zackary30@yahoo.com",
+        "firstName": "London",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48120691",
+        "tenantId": null
+      },
+      {
+        "reference": "f730fdfa-a9de-4009-bbe2-9bc3f9f2817e",
+        "email": "Tre_Grant70@yahoo.com",
+        "firstName": "Christina",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14383401",
+        "tenantId": null
+      },
+      {
+        "reference": "feb483df-c981-486a-bcf8-2eea5ada3cdd",
+        "email": "Gunner.Jones@yahoo.com",
+        "firstName": "Jimmie",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cb78195-16c6-4cd6-87a4-3a058c359131",
+        "email": "Ahmad.Stracke@yahoo.com",
+        "firstName": "Emma",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19296885",
+        "tenantId": null
+      },
+      {
+        "reference": "208f7976-e433-454d-9e24-91ccc74e6708",
+        "email": "Yvonne_MacGyver@gmail.com",
+        "firstName": "Elizabeth",
+        "lastName": "Towne-Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89719641",
+        "tenantId": null
+      }
+    ]
+  }
+]
